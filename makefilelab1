@@ -1,0 +1,14 @@
+gcc -o lab1 main.o lab1.c
+
+gcc -c main.c lab1.c
+
+------- to clean the file-------
+
+-rm - f*.o lab1
+
+-----------------------------
+issues I had completing this assignment:
+- I was unable to push my initial code from my kate editor terminal to my github repository, even after it asked me for my username and password to my github account.
+instead, I had to edit the file directly, and type out my makefile instructions. 
+
+the gcc commands DID work with a few exceptions... but because I couldn't get my git push successfully, I was left to edit the file directly in my github. 
