@@ -9,7 +9,7 @@ char*readString(char*file){
     FILE*txt = fopen(file,"r";
 strcpy(ptr,fgets(ptr,MAX_LINE_LEN-1,txt));
                      fclose(txt);
-                     rerturn ptr;
+                     return ptr;
                      }
                      
 char*mysteryExplode(const char*str){
